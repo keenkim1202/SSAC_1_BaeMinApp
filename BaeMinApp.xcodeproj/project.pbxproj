@@ -13,6 +13,8 @@
 		1C3819FF2703F1890077FB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3819FD2703F1890077FB41 /* Main.storyboard */; };
 		1C381A012703F18A0077FB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C381A002703F18A0077FB41 /* Assets.xcassets */; };
 		1C381A042703F18A0077FB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C381A022703F18A0077FB41 /* LaunchScreen.storyboard */; };
+		1C381A1827043B760077FB41 /* MenuInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C381A1727043B760077FB41 /* MenuInfo.swift */; };
+		1C381A1A27043BCF0077FB41 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C381A1927043BCF0077FB41 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1C381A002703F18A0077FB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C381A032703F18A0077FB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C381A052703F18A0077FB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C381A1727043B760077FB41 /* MenuInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInfo.swift; sourceTree = "<group>"; };
+		1C381A1927043BCF0077FB41 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1C381A002703F18A0077FB41 /* Assets.xcassets */,
 				1C381A022703F18A0077FB41 /* LaunchScreen.storyboard */,
 				1C381A052703F18A0077FB41 /* Info.plist */,
+				1C381A1727043B760077FB41 /* MenuInfo.swift */,
+				1C381A1927043BCF0077FB41 /* MenuCell.swift */,
 			);
 			path = BaeMinApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3819FC2703F1890077FB41 /* ViewController.swift in Sources */,
+				1C381A1A27043BCF0077FB41 /* MenuCell.swift in Sources */,
 				1C3819F82703F1890077FB41 /* AppDelegate.swift in Sources */,
+				1C381A1827043B760077FB41 /* MenuInfo.swift in Sources */,
 				1C3819FA2703F1890077FB41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
